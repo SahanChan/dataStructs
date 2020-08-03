@@ -1,11 +1,11 @@
 package InsertionSortJava;
 
-public class insertionSort {
+public class InsertionSort {
 
     private long[] arr;
     private int nElems;
 
-    public insertionSort(int max) {
+    public InsertionSort(int max) {
         arr = new long[max];
         nElems = 0;
     }
@@ -13,6 +13,13 @@ public class insertionSort {
     public void insert(long value) {
         arr[nElems] = value;
         nElems++;
+    }
+
+    public void display() {
+        for (int i = 0; i < nElems; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("");
     }
 
     public void insertionSort() {
