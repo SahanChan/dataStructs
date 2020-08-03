@@ -1,4 +1,4 @@
-package InsertionSortJava;
+package Java.InsertionSortJava;
 
 public class InsertionSortApp {
 

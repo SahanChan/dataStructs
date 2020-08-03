@@ -1,4 +1,4 @@
-package SelectionSort;
+package Java.SelectionSort;
 
 public class selectionSortApp {
 

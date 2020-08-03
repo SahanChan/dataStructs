@@ -1,4 +1,4 @@
-package BinarySearchJava;
+package Java.BinarySearchJava;
 
 class OrdApp {
 
