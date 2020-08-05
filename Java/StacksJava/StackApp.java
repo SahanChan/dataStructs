@@ -33,8 +33,8 @@ public class StackApp {
 
     public void display() {
 
-        for (int i = 0; i < top; i++) {
-            System.out.print(stackArray[i]);
+        for (int i = 0; i <= top; i++) {
+            System.out.print(stackArray[i] + " ");
         }
         System.out.println("");
 

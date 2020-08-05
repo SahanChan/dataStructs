@@ -10,14 +10,24 @@ public class Stacks {
         my_stack.push(40);
         my_stack.push(30);
         System.out.println(my_stack.peek());
+        my_stack.display();
         my_stack.push(60);
         my_stack.push(80);
-        System.out.println(my_stack.peek());
-
+        my_stack.display();
+        System.out.println(my_stack.pop());
+        my_stack.display();
         my_stack.push(100);
         my_stack.push(50);
         my_stack.push(90);
+        my_stack.display();
 
+        while (!my_stack.isEmpty()) {
+            long value = my_stack.pop();
+            System.out.print(value);
+            System.out.print(" ");
+
+        }
+        System.out.println("");
     }
 
 }
