@@ -1,4 +1,4 @@
-package BubbleSortJava;
+package Java.BubbleSortJava;
 
 class ArrayBub {
     private long[] arr;
