@@ -23,4 +23,20 @@ public class StackApp {
         return stackArray[top--];
     }
 
+    public boolean isEmpty() {
+        return (top == -1);
+    }
+
+    public boolean isFull() {
+        return (top == maxSize - 1);
+    }
+
+    public void display() {
+
+        for (int i = 0; i < top; i++) {
+            System.out.print(stackArray[i]);
+        }
+        System.out.println("");
+
+    }
 }
