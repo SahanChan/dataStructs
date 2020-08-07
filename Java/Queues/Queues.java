@@ -17,7 +17,7 @@ public class Queues {
 
     public void insert(long i) {
         if (rear == maxSize - 1) {
-            rear = 1;
+            rear = -1;
 
         }
         queArray[++rear] = i;
@@ -51,7 +51,7 @@ public class Queues {
     }
 
     public void display() {
-        for (int i = 0; i < maxSize; i++) {
+        for (int i = 0; i < nElems; i++) {
             System.out.print(queArray[i] + " ");
 
         }
