@@ -36,6 +36,23 @@ public class LinkList {
         return current;
     }
 
+    public void insertAfter(int key, int newiData, double dData) {
+        Link current = first;
+        Link newLink = new Link(newiData, dData);
+        while (current.iData != key) {
+            if (current.next == null) {
+
+            } else {
+                current = current.next;
+            }
+
+        }
+        Link temp = current.next;
+
+        current.next = newLink;
+        newLink.next = temp;
+    }
+
     public Link delete(int key) {
         Link current = first;
         Link previous = first;
