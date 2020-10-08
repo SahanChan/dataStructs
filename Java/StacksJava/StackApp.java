@@ -15,6 +15,9 @@ public class StackApp {
         stackArray[++top] = i;
     }
 
+
+
+
     public long peek() {
         return stackArray[top];
     }
